@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кружочки Фурье - рисование</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="p5.min.js"></script>
+	<script src="addScreenPositionFunction.js"></script>
+	<script src="fourier.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<main></main>
+	<div class="configs">
+		<input type="button" value="добавить" onclick="addConf()">
+		<input type="button" value="применить" onclick="aplyConfs()">
+		<input type="button" value="удалить" onclick="removeConf()">
+		<ul class="confs">
+			<li>
+				<input name="len" type="number" placeholder="длина" value="200">
+				<input name="spd" type="number" placeholder="скорость" value="1">
+			</li>
+			<li>
+				<input name="len" type="number" placeholder="длина" value="50">
+				<input name="spd" type="number" placeholder="скорость" value="-3">
+			</li>
+		</ul>
+	</div>
+</body>
+</html>

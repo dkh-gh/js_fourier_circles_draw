@@ -1,0 +1,29 @@
+
+body > * {
+	display: flex;
+
+}
+
+body {
+	background: #000014;
+	display: flex;
+}
+
+main {
+	width: 800px;
+	height: 800px;
+}
+
+.configs {
+	display: block;
+}
+
+	ul.confs {
+		list-style-type: none;
+		margin: 0; padding: 0;
+	}
+		ul.confs li {
+			margin: 5px;
+			padding: 5px;
+			outline: 1px solid #3a3ae7;
+		}
